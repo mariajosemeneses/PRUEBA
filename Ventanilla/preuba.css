@@ -1,0 +1,103 @@
+body {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: #ffffff;
+}
+#header{
+    background-color:#1a978a;
+    width:102%;
+    height:30px;
+    margin-top: -8px;
+    margin-left: -8px;
+  }
+  #imgLogoBQ{
+        max-width: 28px; 
+    	margin-right: 28px; 
+        margin-left: 10px;
+  }
+  #titulo1{
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+	color: white;
+  }
+.contenedor {
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Menu*/
+  
+#sidebar-left{
+	margin-left: -90px;
+    float:left;
+    width:85px;
+    background-color: #db5f25;
+	color: white;
+	box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 15px;
+	margin-left: 25px;
+}
+
+li {
+    margin-bottom: 20px;
+	font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1be9d8; 
+}
+
+.logout {
+    position: absolute;
+    bottom: -5px;
+	margin-left: 25px;
+	font-size: 12px;
+}
+
+#salir{
+	max-width: 18px; 
+    margin-right: 18px; 
+	
+}
+
+
+ /*************************************/ 
+  #main{
+    float:left;
+    width:80%;
+    background-color:white;
+	margin-left: 10px;
+  }
+  
+  #footer{
+    clear:both;
+    background-color:#1a978a;
+    width:102%;
+    height:3px;
+	
+    text-align: center;
+    margin-left: -8px;
+  }
+  
+  #sidebar-left, #main{
+	
+    min-height: 321px				
+  }
+
+
+  /*Login*/
+  
+  

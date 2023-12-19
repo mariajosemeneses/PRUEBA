@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Cliente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="main">
+    <h2>Buscar Cliente por Número de Cuenta</h2>
+    <label for="numeroCuenta">Número de Cuenta:</label>
+    <input type="text" id="numeroCuenta" required>
+    <button type="button" onclick="buscarCliente()">Buscar</button>
+</div>
+
+<div id="paginaCliente" style="display: none;"></div>
+<div id="paginaResultados" style="display: none;"></div>
+<div id="confirmar" style="display: none;"></div>
+<div id="cancelar" style="display: none;"></div>
+
+<script src="validacion.js"></script>
+</body>
+</html>

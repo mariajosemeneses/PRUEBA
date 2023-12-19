@@ -1,0 +1,140 @@
+body {
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	background-color: #ffffff;
+	margin-top: 8px;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    flex-direction: row-reverse; 
+}
+
+img {
+    max-width: 20px; 
+    margin-right: 20px; 
+}
+
+.left img {
+    margin-right: 10px;
+}
+#header{
+    background-color:#1a978a;
+    width:910px;
+    height:30px;
+    margin-top: -8px;
+    margin-left: -8px;
+  }
+  #imgLogoBQ{
+        max-width: 28px; 
+    	margin-right: 28px; 
+        margin-left: 10px;
+		margin-left: 20px;
+  }
+
+  p{
+    font-size: 12px;
+    margin: 0;
+	color: white;
+  }
+  #nombreUsuario{
+	font-size: 10px;
+    margin: 0;
+	color: white;
+  }
+.contenedor {
+    height:30px;
+    display: flex;
+    align-items: center;
+}
+
+/*Menu*/
+  
+#sidebar-left{
+	margin-left: -80px;
+    float:left;
+    width:140px;
+    background-color: #1a978a;
+	color: white;
+	box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 15px;
+	margin-left: 75px;
+}
+
+li {
+    margin-bottom: 20px;
+	font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #1be9d8; 
+}
+
+.logout {
+    margin-top: 170px;
+    bottom: -5px;
+	margin-left: 100px;
+	font-size: 12px;
+}
+
+#salir{
+	max-width: 18px; 
+    margin-right: 18px; 
+	
+}
+#salirtxt{
+	font-size: 10px;
+}
+
+
+ /*************************************/ 
+  #main{
+    float:left;
+    width:820px;
+	height: 300px;
+    background-color:white;
+	margin-left: 0px;
+  }
+  
+  #footer{
+    clear:both;
+    background-color:#1a978a;
+    width:910px;
+    height:20px;
+	color: white;
+	font-size: 9px;
+    text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	margin-left: -8px;
+  }
+  
+  #sidebar-left, #main{
+	
+    min-height: 341px				
+  }
+
+
+  /*Login*/
+  
+  

@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+}
+
+#sidebar-left {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+li a:hover {
+    background-color: #555;
+}
+
+.salir {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.salir img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.contenido-principal {
+    flex-grow: 1;
+    padding: 20px;
+}
